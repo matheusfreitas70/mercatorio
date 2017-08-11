@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Mercatorio, precatório, color pallete">
+        <title>Mercatório | A Bolsa de Valores de Precatórios</title>
+    
+    <!-- Favicon Mercatório -->
+        <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+        
+    <!-- Adicionando Google Fonts - Montserrat -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- Chamando as folhas de estilos Css -->
+        <link rel="stylesheet" href="css/estilo-mercatorio.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+    <!-- Js para aplicar novas cores na tabela -->
+        <script>
+            {function($){
+                AddTableRow = function() {
+                    var newRow = $("<tr>");
+                    var cols = $("<td>");
+                    
+                    cols +=  '<td>&nbsp;</td>';
+                    cols +=  '<td>&nbsp;</td>';
+                    cols +=  '<td>&nbsp;';
+                    cols +=  '<td>';
+                    
+                    newRow.append(cols);
+                    $("#products-table").append(newRow);
+                    return false;
+                };
+            }) (jQuery);
+        </script>
+    </head>
+
+    <body>
+    <!-- Cabeçalho com a logo Mercatório -->
+        <header class="container">
+            <div class="row col-sm-12">
+                <img class="bitmap img-responsive center-block" src="img/logo-mercatorio.png" title="A Bolsa de Valores de Precatórios" alt="Mercatório Logomarca">
+            </div>
+        </header>
+        
+    <!-- Linha divisora da seção -->
+        <div class="row col-sm-12">
+        <hr class="linha-divisor col-sm-12" center-block>
+        </div>
+    
+  
+        <section class="container">
+            <div class="row col-sm-12">
+                <h2 class="titulo-forte text-center text-uppercase">Tabela de Cores Hexadecimais</h2>
+            </div>
+
+         <!-- Seção com a tabela de cores -->
+            <div class="row col-sm-12">
+                <div class="bs-example" data-example-id="hoverable-table">
+                    <table id="products-table" class="table table-hover">
+                        <thead><!-- Cabeçalho da Tabela -->
+                            <tr>
+                                <th>N°</th>
+                                <th>Nome</th>
+                                <th>Código</th>
+                                <th>Cor</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody> <!-- corpo tabela -->
+                            <tr>
+                                <th scope="row">001</th>
+                                <td>aliceblue</td> <td>#f0f8ff</td>
+                                <td class="td-cor-001"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">002</th>
+                                <td>antiquewhite</td> <td>#faebd7</td>
+                                <td class="td-cor-002"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">003</th>
+                                <td>aqua</td> <td>#00ffff</td>
+                                <td class="td-cor-003"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">004</th>
+                                <td>aquamarine</td> <td>#7fffd4</td>
+                                <td class="td-cor-004"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">005</th>
+                                <td>azure</td> <td>#f0ffff</td>
+                                <td class="td-cor-005"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">006</th>
+                                <td>beige</td> <td>#f5f5dc</td>
+                                <td class="td-cor-006"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">007</th>
+                                <td>bisque</td> <td>#ffe4c4</td>
+                                <td class="td-cor-007"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">008</th>
+                                <td>black</td> <td>#000000</td>
+                                <td class="td-cor-008"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">009</th>
+                                <td>blanchedalmond</td> <td>#ffebcd</td>
+                                <td class="td-cor-009"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">010</th>
+                                <td>blue</td> <td>#0000ff</td>
+                                <td class="td-cor-010"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">011</th>
+                                <td>blueviolet</td> <td>#8a2be2</td>
+                                <td class="td-cor-011"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">012</th>
+                                <td>brown</td> <td>#a52a2a</td>
+                                <td class="td-cor-012"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">013</th>
+                                <td>burlywood</td> <td>#deb887</td>
+                                <td class="td-cor-013"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">014</th>
+                                <td>cadetblue</td> <td>#5f9ea0</td>
+                                <td class="td-cor-014"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">015</th>
+                                <td>chartreuse</td> <td>#7fff00</td>
+                                <td class="td-cor-015"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">016</th>
+                                <td>chocolate</td> <td>#d2691e</td>
+                                <td class="td-cor-016"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">017</th>
+                                <td>coral</td> <td>#ff7f50</td>
+                                <td class="td-cor-017"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">018</th>
+                                <td>cornflowerblue</td> <td>#6495ed</td>
+                                <td class="td-cor-018"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">019</th>
+                                <td>cornsilk</td> <td>#fff8dc</td>
+                                <td class="td-cor-019"></td>
+                            </tr>
+                             <tr>
+                                <th scope="row">020</th>
+                                <td>crimson</td> <td>#dc143c</td>
+                                <td class="td-cor-020"></td>
+                            </tr>
+                              <tr>
+                                <th scope="row">021</th>
+                                <td>cyan</td> <td>#00ffff</td>
+                                <td class="td-cor-021"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">022</th>
+                                <td>darkblue</td> <td>#00008b</td>
+                                <td class="td-cor-022"></td>
+                            </tr>
+                             <tr>
+                                <th scope="row">023</th>
+                                <td>darkcyan</td> <td>#008b8b</td>
+                                <td class="td-cor-023"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">024</th>
+                                <td>darkgoldenrod</td> <td>#b8860b</td>
+                                <td class="td-cor-024"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">025</th>
+                                <td>darkgray</td> <td>#a9a9a9</td>
+                                <td class="td-cor-025"></td>
+                            </tr>
+                             <tr>
+                                <th scope="row">026</th>
+                                <td>darkgreen</td> <td>#006400</td>
+                                <td class="td-cor-026"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">027</th>
+                                <td>darkgrey</td> <td>#a9a9a9</td>
+                                <td class="td-cor-027"></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table> <!-- Encerra a tabela -->
+                    
+                 <!-- Linha divisora da seção -->
+                <div class="row">
+                    <hr class="linha-divisor" center-block>
+                </div>
+                    
+                </div> <!-- fecha a div class="bs-example" data-example-id="hoverable-table" -->
+                
+            </div> <!-- fecha a div class="row col-sm-12" -->
+        </section>
+        
+    
+        
+        <br><br><br>
+        <br><br><br>
+        
+    <!-- Inicia o rodapé da página -->
+        <footer class="rodape navbar container-fluid navbar-fixed-bottom navbar-inverse">
+            <div class="row col-sm-3">
+                <h5 class="txt-rodape">Teste realizado por <strong>Matheus Feitas</strong></h5> <small class="txt-rodape">Agosto | 2017</small>
+            </div>
+            
+            <div class="row col-sm-7">
+                <div colspan="5">
+                    <button class="btn btn-primary botao-add" onclick="AddTableRow()" type="button">Adicione uma nova Cor</button>
+                </div>
+            </div>
+            
+            <div class="row"> <!-- logo Mercatório no rodapé -->
+                <a href="http://www.mercatorio.com.br" target="_blank"><img class="img-responsive img-rodape" src="img/logo-mercatorio.png" title="Acesse o site Mercatório" alt="Mercatório Logomarca"></a>
+            </div>
+        
+        
+        </footer>
+        
+    <!-- Chamando os arquivos Js -->    
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,225 @@
+/*--
+ * Teste Matheus Freitas para vaga no site
+ * www.mercatorio.com.br
+ * realizado em Agosto de 2017
+--*/
+
+
+/*--- Fundo do cabeçalho com a logo Mercatório ---*/
+header{
+    background-color: #545454;
+    padding: 5%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.titulo-forte{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #545454;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.linha-divisor{
+    margin: 20px 55px 15px 55px;
+    max-width: 90%;
+    border-bottom: 7px solid silver;
+    border-bottom-width: 3px;
+}
+
+/*--
+ Adicionando as cores aos seus
+ respectivos códigos na tabela
+--*/
+
+.td-cor-001{ /*-- aliceblue --*/
+    width: 25%;
+    background-color: #f0f8ff;
+}
+
+.td-cor-002{ /*-- antiquewhite --*/
+    width: 25%;
+    background-color: #faebd7;
+}
+
+.td-cor-003{ /*-- aqua --*/
+    width: 25%;
+    background-color: #00ffff;
+}
+
+.td-cor-004{ /*-- aquamarine --*/
+    width: 25%;
+    background-color: #7fffd4;
+}
+
+.td-cor-005{ /*-- azure --*/
+    width: 25%;
+    background-color: #f0ffff;
+}
+
+.td-cor-006{ /*-- beige --*/
+    width: 25%;
+    background-color: #f5f5dc;
+}
+
+.td-cor-007{ /*-- bisque --*/
+    width: 25%;
+    background-color: #ffe4c4;
+}
+
+.td-cor-008{ /*-- black --*/
+    width: 25%;
+    background-color: #000;
+}
+
+.td-cor-009{ /*-- blanchedalmond --*/
+    width: 25%;
+    background-color: #ffebcd;
+}
+
+.td-cor-010{ /*-- blue --*/
+    width: 25%;
+    background-color: #0000ff;
+}
+
+.td-cor-011{ /*-- blueviolet --*/
+    width: 25%;
+    background-color: #8a2be2;
+}
+
+.td-cor-012{ /*-- brown --*/
+    width: 25%;
+    background-color: #a52a2a;
+}
+
+.td-cor-013{ /*-- burlywood --*/
+    width: 25%;
+    background-color: #deb887;
+}
+
+.td-cor-014{ /*-- cadetblue --*/
+    width: 25%;
+    background-color: #5f9ea0;
+}
+
+.td-cor-015{ /*-- chartreuse --*/
+    width: 25%;
+    background-color: #7fff00;
+}
+
+.td-cor-016{ /*-- chocolate --*/
+    width: 25%;
+    background-color: #d2691e;
+}
+
+.td-cor-017{ /*-- coral --*/
+    width: 25%;
+    background-color: #ff7f50;
+}
+
+.td-cor-018{ /*-- cornflowerblue --*/
+    width: 25%;
+    background-color: #6495ed;
+}
+
+.td-cor-019{ /*-- cornsilk --*/
+    width: 25%;
+    background-color: #fff8dc;
+}
+
+.td-cor-020{ /*-- crimson --*/
+    width: 25%;
+    background-color: #dc143c;
+}
+
+.td-cor-021{ /*-- cyan --*/
+    width: 25%;
+    background-color: #00ffff;
+}
+
+
+
+.td-cor-022{ /*-- darkblue --*/
+    width: 25%;
+    background-color: #00008b;
+}
+
+.td-cor-023{ /*-- darkcyan --*/
+    width: 25%;
+    background-color: #008b8b;
+}
+
+.td-cor-024{ /*-- darkgoldenrod --*/
+    width: 25%;
+    background-color: #b8860b;
+}
+
+.td-cor-025{ /*-- darkgray --*/
+    width: 25%;
+    background-color: #a9a9a9;
+}
+
+.td-cor-026{ /*-- darkgreen --*/
+    width: 25%;
+    background-color: #006400;
+}
+
+.td-cor-027{ /*-- darkgrey --*/
+    width: 25%;
+    background-color: #a9a9a9;
+}
+
+
+
+/* -- Estilos do rodapé da página -- */
+.rodape{
+    margin-top: 25px !important;
+    height: 95px;
+    padding: 12px;
+    margin-top: 25px;
+    border-color: #fff !important;
+    border-width: 5px 0 0 !important;
+
+}
+
+.txt-rodape{
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.img-rodape{
+    vertical-align: middle;
+    height: 15%;
+    width: 15%;
+    text-align: right;
+}
+
+.botao-add{
+    margin-top: 3px;
+    margin-left: 128px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
